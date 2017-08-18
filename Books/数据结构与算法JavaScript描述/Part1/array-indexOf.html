@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    Array.prototype.indexof = function (arg) {
+      var index = -1
+      for (var i = 0; i < this.length; i++) {
+        // debugger
+        console.log('indexof', i)
+        if (this[i] == arg) {
+          index = i;
+          continue;
+        }
+      }
+      return index
+    }
+
+    var a = [1,2,3,4,5]
+    console.log(a.indexof(3))
+  </script>
+</body>
+</html>
