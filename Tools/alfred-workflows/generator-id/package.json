@@ -1,0 +1,15 @@
+{
+  "name": "workflow-generate-id",
+  "version": "1.0.0",
+  "description": "The Alfred workflow of generate-id.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "xiterjia",
+  "license": "ISC",
+  "dependencies": {
+    "id-validator": "^1.3.0"
+  }
+}
