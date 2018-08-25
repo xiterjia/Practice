@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Image Popup</title>
   <style type="text/css">
-    * {margin:0; padding: 0;}
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
     figure {
       width: 150px;
       height: 150px;
@@ -15,49 +20,71 @@
       position: relative;
       float: left;
     }
-    img {display: block;}
+
+    img {
+      display: block;
+    }
+
     figcaption {
       display: none;
       position: absolute;
-      left: 74%; top: 14px;
+      left: 74%;
+      top: 14px;
       width: 130px;
       padding: 10px;
       background: #f2eaea;
       border: 3px solid red;
       border-radius: 6px;
     }
-    figure:hover figcaption {display: block; z-index: 2;}
+
+    figure:hover figcaption {
+      display: block;
+      z-index: 2;
+    }
+
     figcaption h3 {
       font-size: 14px;
       color: #666;
       margin-bottom: 6px;
     }
+
     figcaption a {
       display: block;
       text-decoration: none;
       font-size: 12px;
       color: #000;
     }
+
     figcaption::after {
       content: ' ';
       position: absolute;
       border: 12px solid;
-      border-color: transparent red  transparent transparent;
-      right: 100%;top: 17px;
-      width: 0;height: 0;
+      border-color: transparent red transparent transparent;
+      right: 100%;
+      top: 17px;
+      width: 0;
+      height: 0;
     }
 
-    .clear{clear:both;}
+    .clear {
+      clear: both;
+    }
+
     /* triangle */
-    section {width: 0;height: 0;
+    section {
+      width: 0;
+      height: 0;
       border: 12px solid;
       border-color: red green blue black;
     }
+
     section.wh12 {
-      width: 12px;height: 12px;
+      width: 12px;
+      height: 12px;
     }
   </style>
 </head>
+
 <body>
   <figure>
     <img src="img/1.jpg" alt="pink heels">
@@ -136,4 +163,5 @@
   <br><br>
   <section class="wh12"></section>
 </body>
+
 </html>

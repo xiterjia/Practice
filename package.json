@@ -1,0 +1,27 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "前端练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "pretty-quick --staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiterjia/Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiterjia/Practice/issues"
+  },
+  "homepage": "https://github.com/xiterjia/Practice#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "husky": "^0.14.3",
+    "prettier": "1.14.2",
+    "pretty-quick": "^1.6.0"
+  }
+}

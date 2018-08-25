@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>position:absolute</title>
@@ -9,6 +10,7 @@
       /*padding: 10px;*/
       border: 1px solid #000;
     }
+
     .absolute {
       position: absolute;
       top: 10px;
@@ -16,27 +18,35 @@
       bottom: 10px;
       left: 10px;
     }
+
     .absolute-middle {
       position: absolute;
-      top: 50%; left: 50%;
+      top: 50%;
+      left: 50%;
       width: 200px;
       height: 50px;
       margin: -26px 0 0 -101px;
 
-      text-align: center; line-height: 50px;
+      text-align: center;
+      line-height: 50px;
 
     }
+
     .position-parent {
-       position: relative;
-       border: 1px solid green;
-       width: 300px; height: 300px;
-       top: 30px; left: 30px;
+      position: relative;
+      border: 1px solid green;
+      width: 300px;
+      height: 300px;
+      top: 30px;
+      left: 30px;
     }
+
     .abs {
       position: absolute;
     }
   </style>
 </head>
+
 <body>
   <div class="absolute">position:absolute</div>
   <div class="absolute-middle">绝对居中（一屏）</div>
@@ -44,4 +54,5 @@
     <div class="abs">父级非relative；</div>
   </section>
 </body>
+
 </html>
